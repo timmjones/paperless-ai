@@ -1,0 +1,5 @@
+# All paperless-ai config and secrets are written here by the setup wizard
+data/
+
+# Secrets
+.env

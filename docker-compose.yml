@@ -1,0 +1,9 @@
+services:
+  paperless-ai:
+    image: clusterzx/paperless-ai:latest
+    restart: unless-stopped
+    ports:
+      - "3030:3000"
+    volumes:
+      - ./data:/app/data
+    env_file: .env
